@@ -1,0 +1,25 @@
+         -------------
+         Batsh Maven Plugin
+         -------------
+         Sven Strittmatter
+         -------------
+         September 2014
+         -------------
+
+Batsh Maven plugin
+
+ TODO
+
+
+* Default directories
+
+ As with all Maven plugins, this plugin will automatically default to standard locations
+ for your grammar and import files. Organizing your source code to reflect this standard
+ layout will greatly reduce the configuration effort required. The standard layout looked
+ like this:
+
++--
+ src/main/
+      |
+      +--- batsh/...
++--

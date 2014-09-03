@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="Batsh Maven plugin">
+
+  <publishDate position="left"/>
+  <version position="left"/>
+
+<!--  <poweredBy>
+    <logo name="Batsh Web Site" href="http://batsh.org/"
+          img=""/>
+  </poweredBy>-->
+
+  <body>
+    <links>
+      <item name="Batsh Web Site" href="http://batsh.org/"/>
+    </links>
+
+    <menu name="Overview">
+      <item name="Introduction" href="index.html"/>
+      <item name="Goals" href="plugin-info.html"/>
+      <item name="Usage" href="usage.html"/>
+      <item name="FAQ" href="faq.html"/>
+    </menu>
+
+    <menu name="Examples">
+      <item name="Simple configurations" href="examples/simple.html"/>
+      <item name="Using library directories" href="examples/libraries.html"/>
+      <item name="Using imported grammars" href="examples/import.html"/>
+    </menu>
+
+    <menu ref="reports" />
+    <menu ref="modules" />
+
+  </body>
+</project>

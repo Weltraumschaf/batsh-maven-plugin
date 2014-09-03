@@ -1,0 +1,43 @@
+Usage
+
+TODO
+
++--
+ src/main/
+      |
+      +--- batsh/...
++--
+
+ The next step is to configure your POM to call the plugin. The goals will
+ normally run during the generate-sources phase of the build. Examples of how to
+ configure your POM can be found on the various examples pages, reachable via
+ the page menu. If you stick with the default values, the snippet below will
+ suffice:
+
++--
+<project>
+  ...
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>de.weltraumschaf</groupId>
+        <artifactId>batsh-maven-plugin</artifactId>
+        <version>${project.version}</version>
+        <executions>
+          <execution>
+            <id>batsh</id>
+            <goals>
+              <goal>batsh</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+    ...
+  </build>
+  ...
+</project>
++--
+
+ Note that you can create multiple executions, and thus build some src with
+ different options to others.

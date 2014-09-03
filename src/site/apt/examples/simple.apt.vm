@@ -1,0 +1,21 @@
+Simple configuration
+
++--
+<plugins>
+<plugin>
+    <groupId>de.weltraumschaf</groupId>
+    <artifactId>batsh-maven-plugin</artifactId>
+    <version>${project.version}</version>
+    <executions>
+        <execution>
+            <goals>
+                <goal>batsh</goal>
+            </goals>
+        </execution>
+    </executions>
+</plugin>
+...
+</plugins>
++--
+
+TODO
